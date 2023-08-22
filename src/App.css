@@ -1,0 +1,16 @@
+.App {
+  text-align: left;
+  line-height: 1.5;
+  padding: 2em;
+  color: #41486b;
+}
+
+/* Hack because input.json contains paragraphs and headers within paragraphs,
+ * which is apparently not valid. */
+div.paragraph {
+}
+
+div.clause {
+    float: left;
+    padding-right: 1em;
+}
